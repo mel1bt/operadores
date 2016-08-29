@@ -1,5 +1,5 @@
 	var opc1 = parseInt(prompt(" OPERADORES ARITMETICOS \n 1) Suma  \n 2) Resta \n 3) Multiplicación \n 4) division \n 5) Modulo  \n 6) Comparacion "));
-	if (opc1>1 && opc1<=6){
+	if (opc1>0 && opc1<=6){
 	var num1=parseInt(prompt("Ingrese el primer numero:"));
 	var num2=parseInt(prompt("Ingrese el segundo numero:")); 
 	switch (opc1){
